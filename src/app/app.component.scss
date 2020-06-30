@@ -1,0 +1,106 @@
+.head {
+  min-width: 400px;
+  height: 10%;
+  margin: 10px auto;
+  background: rgb(151, 25, 151);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 0 10px black;
+}
+
+#head-size {
+  font-size: 16px;
+}
+
+#sub-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input {
+  border: none;
+  box-shadow: 3px 0px 5px #ddd;
+  padding: 10px;
+  width: 350px;
+  margin: 10px;
+  //display: inline-block;
+}
+
+label {
+ font-weight: 500;
+  color: #1c1919;
+}
+
+select {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  color: #1c1919;
+  border: 0;
+  box-shadow: 0 0 10px #ddd;
+  margin: 10px;
+  padding: 3px 6px;
+}
+
+select:focus {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+div {
+  margin: 10px;
+}
+
+.radio {
+  width: 12px;
+  background: inherit;
+}
+
+.checkbox {
+  background: inherit;
+  width: 12px;
+}
+
+input:hover, select:hover, label:hover {
+  cursor: pointer;
+}
+
+input:focus, select:focus  {
+  box-shadow: 3px 3px 5px rgb(154,71,151);
+}
+
+input, select {
+  background: aliceblue;
+}
+
+.btn {
+  width: 70px;
+  height: 30px;
+  font-weight: 500;
+  background: darkkhaki;
+  border: 0;
+  color: black;
+  box-shadow: 0 0 5px #aca64a;
+}
+
+.btn:hover {
+  background: #aca64a;
+}
+
+.btn:focus {
+  outline: none;
+  background: darkkhaki;
+}
+
+.btn:active {
+  background: #aaa454;
+  box-shadow: none;
+}
+
+.error {
+  color: crimson;
+}
